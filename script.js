@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function createPromise() {
     return new Promise((resolve, reject) => {
-        let time = Math.random() * (3 - 1) + 1; // This will give a random number between 1 and 3
+        let time = Math.random() * (1.33 - 0.67) + 0.67; // This will give a random number between 1 and 3
         setTimeout(() => {
             resolve(time);
         }, time * 1000);
